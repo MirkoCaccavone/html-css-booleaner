@@ -18,7 +18,7 @@ header > img{
 
 /* css main */
 
-main{
+main, footer{
     margin: 20px 5px;
 }
 
@@ -92,4 +92,33 @@ main img{
     background-color: white;
     display: flex;
     align-items: center;
+}
+
+/* css footer */
+
+#potrebbero_interessarti{
+    color: rgb(133, 133, 133);
+    font-weight: bold;
+}
+
+.foto_monitor{
+    background-image: url(../img/monitor.jpg);
+    color: white;
+    font-size: 20px;
+    width: 240px;
+    height: 150px;
+    margin: 10px 0;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+
+.foto_grafico{
+    background-image: url(../img/graph.jpg);
+    color: white;
+    font-size: 20px;
+    width: 240px;
+    height: 150px;
+    padding-left: 15px;
+    padding-top: 10px;
 }
