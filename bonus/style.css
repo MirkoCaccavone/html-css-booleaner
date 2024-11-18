@@ -1,0 +1,129 @@
+/* esercizio bonus */
+/* modificato il margine della (header >img)  */
+/* modificato il margine al (main,footer) */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(./../img/pattern.png);
+    background-color: rgba(5, 85, 233, 0.5);
+    height: 120px;
+}
+
+header > img{
+    margin-left: 120px;
+    height: 50px;
+    width: auto;
+    margin-top: 50px;
+}
+
+/* css main */
+
+main, footer{
+    margin: 20px 120px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#blue_text{
+    color: blue;
+}
+
+.info_autore{
+    font-size: 15px;
+    color: rgb(133, 133, 133);
+    font-weight: bold;
+}
+
+#foto_tim{
+    margin-top: 15px;
+}
+
+main img{
+    height: 350px;
+    width: auto;
+}
+
+.info_foto{
+    font-size: 10px;
+}
+
+.testo_lorem{
+    margin: 20px 0;
+}
+
+.testo_lorem span{
+    background-color: yellow;
+}
+
+#unordered_list ul{
+    padding: 15px;
+}
+
+.riga_blu{
+    background-color: blue;
+    color: white;
+    height: 20px;
+}
+
+.prima_colonna{
+    display: inline-block;
+    width: 30%;
+}
+
+.seconda_colonna{
+    display: inline-block;
+    width: 35%;
+}
+
+.terza_colonna{
+    display: inline-block;
+    width: 30%;
+}
+
+.riga_azurra{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.riga_bianca{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* css footer */
+
+#potrebbero_interessarti{
+    color: rgb(133, 133, 133);
+    font-weight: bold;
+}
+
+.foto_monitor{
+    background-image: url(../img/monitor.jpg);
+    color: white;
+    font-size: 20px;
+    width: 240px;
+    height: 150px;
+    margin: 10px 0;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+
+.foto_grafico{
+    background-image: url(../img/graph.jpg);
+    color: white;
+    font-size: 20px;
+    width: 240px;
+    height: 150px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
