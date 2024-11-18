@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    background-image: url(../img/pattern.png);
+    background-color: rgba(5, 85, 233, 0.5);
+    height: 120px;
+}
+
+header > img{
+    height: 50px;
+    width: auto;
+    margin-top: 50px;
+    margin-left: 10px;
+}
