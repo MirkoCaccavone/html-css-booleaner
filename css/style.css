@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 header{
     background-image: url(../img/pattern.png);
@@ -58,4 +59,37 @@ main img{
 
 #unordered_list ul{
     padding: 15px;
+}
+
+.riga_blu{
+    background-color: blue;
+    color: white;
+    height: 20px;
+}
+
+.prima_colonna{
+    display: inline-block;
+    width: 30%;
+}
+
+.seconda_colonna{
+    display: inline-block;
+    width: 35%;
+}
+
+.terza_colonna{
+    display: inline-block;
+    width: 30%;
+}
+
+.riga_azurra{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+.riga_bianca{
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
