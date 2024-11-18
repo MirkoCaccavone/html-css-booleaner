@@ -14,3 +14,48 @@ header > img{
     margin-top: 50px;
     margin-left: 10px;
 }
+
+/* css main */
+
+main{
+    margin: 20px 5px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#blue_text{
+    color: blue;
+}
+
+.info_autore{
+    font-size: 15px;
+    color: rgb(133, 133, 133);
+    font-weight: bold;
+}
+
+#foto_tim{
+    margin-top: 15px;
+}
+
+main img{
+    height: 350px;
+    width: auto;
+}
+
+.info_foto{
+    font-size: 10px;
+}
+
+.testo_lorem{
+    margin: 20px 0;
+}
+
+.testo_lorem span{
+    background-color: yellow;
+}
+
+#unordered_list ul{
+    padding: 15px;
+}
